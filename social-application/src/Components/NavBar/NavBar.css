@@ -1,0 +1,96 @@
+.NavBarBox {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(27, 27, 66);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.NavBarLeft {
+  flex: 4;
+}
+
+.NavBarCenter {
+  flex: 5;
+}
+
+.NavBarRight {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(251, 252, 253);
+}
+
+.ProPic {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Logo {
+  font-size: 35px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(251, 252, 253);
+  cursor: pointer;
+}
+
+.SearchBarBox {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(251, 252, 253);
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.NavBarIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavBarIcon {
+  margin-left: 10px;
+}
+
+.ProPicture {
+  margin: auto;
+}
+
+.IconTag {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(114, 14, 14);
+  color: rgb(251, 252, 253);
+  position: absolute;
+  border-radius: 50%;
+}
+
+.NavBarLinks {
+  margin-left: 15px;
+  font-style: 22px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.NavBarLink {
+  margin-left: 20px;
+}
+
+.SearchIcon {
+  margin-left: 15px;
+}
+
+.SearchInput {
+  border: none;
+  width: 80%;
+}
+
+.SearchInput :focus {
+  outline: none;
+}
