@@ -1,6 +1,6 @@
 import React from "react";
 import "./leftPane.css";
 
-export default function leftPane() {
+export default function LeftPane() {
   return <div>leftPane</div>;
 }
