@@ -65,78 +65,80 @@ export default function LeftPane() {
           <div className="PagesLiked">
             <h3>Pages You Liked</h3>
           </div>
-          <li className="LikePage">
-            <img
-              src="/images/PC2.jpg"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">Infinity Step</span>
-          </li>
-          <li className="LikePage">
-            <img
-              src="/images/PC3.jpg"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">Urban Flex</span>
-          </li>
-          <li className="LikePage">
-            <img
-              src="/images/PC4.jpg"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">Fusion Style</span>
-          </li>
-          <li className="LikePage">
-            <img
-              src="/images/PC5.png"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">Puma Pluse</span>
-          </li>
-          <li className="LikePage">
-            <img
-              src="/images/PC6.jpg"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">Nethmi Saloon</span>
-          </li>
-          <li className="LikePage">
-            <img
-              src="/images/PC7.jpeg"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">The Voice</span>
-          </li>
-          <li className="LikePage">
-            <img
-              src="/images/PC8.jpeg"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">ITN Srilanka</span>
-          </li>
-          <li className="LikePage">
-            <img
-              src="/images/PC6.png"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">BBC News</span>
-          </li>
-          <li className="LikePage">
-            <img
-              src="/images/PC10.jpg"
-              alt="Page Image"
-              className="LikePageImg"
-            />
-            <span className="LikePageName">Strive Style</span>
-          </li>
+          <div className="PageList">
+            <li className="LikePage">
+              <img
+                src="/images/PC2.jpg"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">Infinity Step</span>
+            </li>
+            <li className="LikePage">
+              <img
+                src="/images/PC3.jpg"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">Urban Flex</span>
+            </li>
+            <li className="LikePage">
+              <img
+                src="/images/PC4.jpg"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">Fusion Style</span>
+            </li>
+            <li className="LikePage">
+              <img
+                src="/images/PC5.png"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">Puma Pluse</span>
+            </li>
+            <li className="LikePage">
+              <img
+                src="/images/PC6.jpg"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">Nethmi Saloon</span>
+            </li>
+            <li className="LikePage">
+              <img
+                src="/images/PC7.jpeg"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">The Voice</span>
+            </li>
+            <li className="LikePage">
+              <img
+                src="/images/PC8.jpeg"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">ITN Srilanka</span>
+            </li>
+            <li className="LikePage">
+              <img
+                src="/images/PC6.png"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">BBC News</span>
+            </li>
+            <li className="LikePage">
+              <img
+                src="/images/PC10.jpg"
+                alt="Page Image"
+                className="LikePageImg"
+              />
+              <span className="LikePageName">Strive Style</span>
+            </li>
+          </div>
         </div>
       </div>
     </div>
