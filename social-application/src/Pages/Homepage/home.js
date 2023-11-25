@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <div>
       <NavBar />
+      <leftPane />
+      <PostPane />
+      <RightPane />
     </div>
   );
 }
