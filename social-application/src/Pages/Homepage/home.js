@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <div>
       <NavBar />
-      <LeftPane />
-      <PostPane />
-      <RightPane />
+      <div className="AppBottom">
+        <LeftPane />
+        <PostPane />
+        <RightPane />
+      </div>
     </div>
   );
 }
